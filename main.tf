@@ -2,12 +2,6 @@ locals {
   split_id = split("/", var.resource_id)
 }
 
-# # Example for extracting resource name, resource group, and provider
-# resource "null_resource" "parser" {
-#   # This resource is just a placeholder to show local values calculation.
-#   # In real scenarios, you might not need an actual resource here.
-# }
-
 locals {
   resource_group_name_index = index(local.split_id, "resourceGroups") + 1
   resource_group_name       = local.split_id[local.resource_group_name_index]
