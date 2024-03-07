@@ -18,9 +18,7 @@ No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_null"></a> [null](#provider\_null) | n/a |
+No providers.
 
 ## Modules
 
@@ -28,9 +26,7 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [null_resource.parser](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
+No resources.
 
 ## Inputs
 
