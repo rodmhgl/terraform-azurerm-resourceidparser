@@ -1,4 +1,4 @@
-## Purpose
+# Purpose
 
 Parses a full Azure resource ID into its constituent parts.
 
